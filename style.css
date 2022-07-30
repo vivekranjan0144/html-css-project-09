@@ -1,0 +1,285 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+  width: 100vw;
+  background-color: #4617fe;
+}
+
+.logo {
+  margin: 10px 50px;
+}
+
+.header-text {
+  height: 30vh;
+  line-height: 45px;
+  color: #ffffff;
+  position: relative;
+  top: 38%;
+  left: -13%;
+}
+
+.header-text h2 {
+  font-size: 1.6rem;
+}
+
+nav {
+  order: 2;
+  height: 5vh;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 12px;
+  margin: 10px;
+  margin-left: 21%;
+}
+
+.nav-item-active {
+  background-color: #ffffff;
+  color: #4515fe;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+nav svg {
+  height: 40px;
+  width: 20px;
+}
+
+.header-image {
+  position: absolute;
+  height: 400px;
+  right: 0%;
+  top: 15%;
+}
+
+.companies {
+  margin: 16px 60px;
+}
+
+.companies a {
+  text-decoration: none;
+  font-family: "Righteous";
+  color: #000000;
+  padding: 0 13px;
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+
+.api {
+  margin-top: 6%;
+  margin-left: 70px;
+}
+
+.cards {
+  margin: 4% 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-active {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-left: -38px;
+  height:200px;
+  width: 300px;
+  box-shadow: 2px 2px 10px 2px rgb(2, 2, 2, 0.5);
+  padding: 20px;
+}
+
+.card-head-active {
+  color: #4515fe;
+}
+
+.card-body {
+  font-size: 12px;
+}
+
+.blog-heading {
+  margin-left: 62px;
+  font-size: 0.9rem;
+}
+
+.blog-cards {
+  margin-left: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-card {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  gap: 50px;
+  align-items: center;
+  border-radius: 52px 10px 10px 10px;
+  box-shadow: 2px 2px 10px 2px rgb(2, 2, 2, 0.5);
+}
+
+.blog-image > img {
+  height: 200px;
+}
+
+.blog-content h6 {
+  color: #6b46fd;
+  font-weight: 900;
+
+}
+
+.blog-content h3 {
+  font-weight: 900;
+  font-size: medium; 
+}
+
+.blog-content small {
+  font-size: 0.4rem;
+}
+
+.bottom-one {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-section {
+  background-color: #E9EDFF;
+  display: flex;
+  justify-content: space-between;
+  height: 40vh;
+  margin-left: 60px;
+  margin-top: 6%;
+}
+
+.faq-image > img {
+  height: 260px;
+  margin-right: 50px;
+}
+
+.faq-content h2 {
+  padding-top: 20px;
+}
+
+.faq-content h4 {
+  font-weight: 600;
+  font-size: 10px;
+  padding: 12px 0;
+}
+
+.faq-content button {
+  background-color: #5a31fc;
+  font-size: 12px;
+  padding: 8px 35px;
+  margin-left: 3px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+.download-section {
+  margin-left: 60px;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download-content h1 {
+  font-weight: 900;
+}
+
+.download-content h1 span {
+  font-weight: 900;
+  font-size: x-large;
+}
+
+.download-email {
+  border: 1px solid #000000;
+  border-radius: 20px;
+  background-color: #E9EDFF;
+  margin-right: 40px;
+  width: 400px;
+  align-items: center;
+}
+
+.download-email input {
+  border: none;
+  background-color: transparent;
+    margin-left: 60px;
+}
+
+.download-email button {
+  background-color: #5a31fc;
+  color: white;
+  font-size: 12px;
+  padding: 6px 26px;
+  border: none;
+  border-radius: 20px;
+  margin-left: 58px;
+}
+
+.footer-section {
+  height: 140px;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 40px;
+  align-items: center;
+  background-color: #4718fe;
+  color: white;
+}
+
+.footer-left {
+  margin: 8% 0;
+}
+
+.footer-right {
+  margin: 8% 0;
+}
+
+.list{
+  list-style-type: none;
+  display: flex;
+  margin-top: 25px;
+}
+
+.list li{
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+ .logos-list{
+  list-style-type: none;
+  display: flex;
+  margin-top: 25px;
+}
+
+.logos-list li{
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.footer-logos {
+  padding: 0px 10px;
+}
